@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="./sass/style.scss" />
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="tasks">
+      <!-- heading with the informations about the todo -->
+      <div class="heading">
+        <h1 class="heading__title">
+          Todo List
+        </h1>
+        <h3>Friday 24 Apr 2020 Berlin, Germany</h3>
+
+        <!-- hr line -->
+        <div class="values">
+          <h2 class="heading__subtitle">
+            All todos count: 0
+          </h2>
+          <h2 class="completed">(completed: 0)</h2>
+        </div>
+        <div class="heading__add-item">
+          <input
+            class="user-input"
+            type="text"
+            autofocus
+            placeholder="Add a new item to the list"
+          />
+          <button><ion-icon name="add-circle-outline"></ion-icon></button>
+        </div>
+      </div>
+
+      <!-- hr line -->
+      <hr />
+
+      <!-- ul list of items -->
+      <ul></ul>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

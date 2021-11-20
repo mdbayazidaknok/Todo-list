@@ -1,0 +1,18 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "publish": "gh-pages -d dist",
+    "ungit": "ungit"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "gh-pages": "^2.1.1",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^7.1.0",
+    "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "base": "^3.0.0"
+  }
+}
